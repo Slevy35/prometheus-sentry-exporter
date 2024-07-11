@@ -31,7 +31,7 @@ $exporter = new \Ujamii\OpenMetrics\Sentry\SentryExporter($token, $sentryBase);
 $exporter->run();
 ```
 
-### with Docker
+### with Docker test
 
 The image is based on `php:8.1-apache` and thus exposes data on port 80 by default. Assuming you fire this up with `-p 80:80` on 
 localhost, you can see the metrics on http://localhost/metrics.
